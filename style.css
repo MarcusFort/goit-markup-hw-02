@@ -1,0 +1,151 @@
+:root {
+    --title-text-color-white: #fff;
+    --title-text-color-primary: #2E2F42;
+    --title-text-color-secondary: #434455;
+    --primary-bg-color: #4D5AE5;
+}
+
+button {
+    color: var(--title-text-color-white);
+    background-color: var(--primary-bg-color);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* NAVIGATION */
+
+/* .nav {
+    position: absolute;
+    width: 1440px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+} */
+
+.nav a {
+    text-decoration: none;
+}
+
+.nav-title {
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+.nav-title *,
+.nav-contact * {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav-contact {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+/* SECTION 1 */
+
+.section-1 {
+    /* position: absolute;
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 72px; */
+    background: #2E2F42;
+}
+
+.section-1 > h1 {
+    color: var(--title-text-color-white);
+}
+
+/* SECTION 2 */
+
+.section-2 h2 {
+    visibility: hidden;
+    display: none;
+}
+
+.section-2 h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color-primary);
+}
+
+.section-2 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color-secondary);
+}
+
+/* SECTION 3 */
+
+.section-3 h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-text-color-primary);
+}
+
+.section-3 img {
+    width: 360px;
+    height: 300px;
+    left: 156px;
+    top: 1128px;
+}
+
+/* SECTION 4 */
+
+.section-4 h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-text-color-primary);
+}
+
+.section-4 h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color-primary);
+}
+
+.section-4 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color-secondary);
+}
+
+/* FOTTER */
+
+.footer {
+    background: #2E2F42;
+}
+
+.footer p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
